@@ -1,0 +1,36 @@
+{
+  "workflows": [
+    {
+      "name": "feature_delivery",
+      "description": "Standard feature delivery with review and release packaging.",
+      "sequence": [
+        "IntakeAgent",
+        "PlannerAgent",
+        "BuilderAgent",
+        "ReviewerAgent",
+        "ReleaseAgent"
+      ]
+    },
+    {
+      "name": "documentation_update",
+      "description": "Update docs and alignment artifacts.",
+      "sequence": [
+        "IntakeAgent",
+        "PlannerAgent",
+        "BuilderAgent",
+        "ReviewerAgent",
+        "ReleaseAgent"
+      ]
+    },
+    {
+      "name": "exploratory_design",
+      "description": "Evaluate an idea and produce a design recommendation.",
+      "sequence": [
+        "IntakeAgent",
+        "PlannerAgent",
+        "BuilderAgent",
+        "ReviewerAgent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "skills": [
+    {
+      "name": "requirements_structuring",
+      "description": "Convert incoming requests into structured objectives and constraints."
+    },
+    {
+      "name": "workflow_planning",
+      "description": "Break a task into ordered implementation steps and checkpoints."
+    },
+    {
+      "name": "implementation_execution",
+      "description": "Create deliverables that match the approved plan."
+    },
+    {
+      "name": "quality_review",
+      "description": "Assess outputs for correctness, clarity, and readiness."
+    },
+    {
+      "name": "release_packaging",
+      "description": "Prepare the final summary and downstream handoff package."
+    },
+    {
+      "name": "documentation_authoring",
+      "description": "Produce readable documentation and summaries."
+    },
+    {
+      "name": "configuration_alignment",
+      "description": "Keep configuration, documentation, and runtime behavior aligned."
+    }
+  ]
+}

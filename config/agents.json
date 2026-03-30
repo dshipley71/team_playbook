@@ -1,0 +1,29 @@
+{
+  "agents": [
+    {
+      "name": "IntakeAgent",
+      "role": "Structure incoming requests into a standard handoff package.",
+      "skills": ["requirements_structuring", "documentation_authoring"]
+    },
+    {
+      "name": "PlannerAgent",
+      "role": "Convert structured requests into implementation plans.",
+      "skills": ["workflow_planning", "configuration_alignment"]
+    },
+    {
+      "name": "BuilderAgent",
+      "role": "Execute the approved plan and produce artifacts.",
+      "skills": ["implementation_execution", "documentation_authoring"]
+    },
+    {
+      "name": "ReviewerAgent",
+      "role": "Verify quality, scope control, and readiness.",
+      "skills": ["quality_review", "configuration_alignment"]
+    },
+    {
+      "name": "ReleaseAgent",
+      "role": "Prepare release notes and final handoff.",
+      "skills": ["release_packaging", "documentation_authoring"]
+    }
+  ]
+}
